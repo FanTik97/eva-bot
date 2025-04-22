@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: eva-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    repo: https://github.com/FanTik97/eva-бот
